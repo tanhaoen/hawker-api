@@ -20,7 +20,7 @@ name: Deploy Python project to Azure Function App
 
 on:
   push:
-    branches: ["master"]
+    branches: ["prod"]
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'hawker-api'   # set this to your function app name on Azure
